@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+        <title>个推-首页</title>   
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">   
+        <!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand logo"><img src="img/logo.png" alt="个推"></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+                        <li><a href="information.html"><span class="glyphicon glyphicon-list"></span> 资讯</a></li>
+                        <li><a href="case.html"><span class="glyphicon glyphicon-th-large"></span> 案例</a></li>
+                        <li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> 关于</a></li>
+                    </ul>   
+                </div>   
+            </div>
+        </nav>
+
+        <div id="myCarousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/slide1.jpg" alt="第一张">
+                </div>
+                <div class="item">
+                    <img src="img/slide2.jpg" alt="第二张">
+                </div>
+                <div class="item">
+                    <img src="img/slide3.jpg" alt="第三张">
+                </div>
+            </div>
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        <div class="tab1">
+            <div class="container">
+                <h2 class="tab1-h2">为什么选择个推</h2>
+                <p class="tab1-p">通过个推的技术，APP可主动向用户推送新闻动态、版本更新、优惠活动、生活服务等各类信息，并通过多维度用户群组分析进行智能匹配，给合适的人群合适的场景推送合适的内容，大幅度提升消息点击率、用户活跃度和留存率。</p>
+                <div class="row">
+                    <div class="col-md-6 col">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="javascript:void;"><img class="media-object" src="img/social_medium_icon.png" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">社交媒体类</h4>
+                                <p>好友动态、热点新闻第一时间送达，<br>不让用户错过任何有价值的消息。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="javascript:void;"><img class="media-object" src="img/red_news_icon.png" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">视频阅读类</h4>
+                                <p>轻松追剧、新书上架、个性推荐，<br>满足用户不同需求。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="javascript:void;"><img class="media-object" src="img/travel_icon.png" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">商旅出行类</h4>
+                                <p>酒店机票一手掌握、打车优惠红包<br>不断，景点推荐触手可及。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="javascript:void;"><img class="media-object " src="img/game_icon.png" alt=""></a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">游戏娱乐类</h4>
+                                <p>激活沉默用户，增加ARPU值，玩<br>家实时互动，用户随时触达。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab2">
+            <div class="container">
+                <!-- <h2 class="tab1-h2">产品特性</h2>
+                <p class="tab1-p">为应用提供消息推送技术解决方案 App三分钟快速集成推送SDK 免去开发成本，提高用户活跃度与粘性 有效提高ARPU值，增加应用收益</p> -->
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 tab2-img">
+                        <img class="auto img-responsive center-block enlarge" src="img/getui1.0_2.png" alt="">
+                    </div>
+                    <div class="text col-md-6 col-sm-6 tab2-text">
+                        <h3>推送高效稳定</h3>
+                        <p>SDK简单易集成，API灵活调用推送数据自主加密，安全无忧消息下发速率可达百万每秒，到达率99%以上</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+         <div class="tab3">
+            <div class="container">
+                <!-- <h2 class="tab1-h2">产品特性</h2>
+                <p class="tab1-p">为应用提供消息推送技术解决方案 App三分钟快速集成推送SDK 免去开发成本，提高用户活跃度与粘性 有效提高ARPU值，增加应用收益</p> -->
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <img class="auto img-responsive center-block enlarge" src="img/getui1.0_1.png" alt="">
+                    </div>
+                    <div class="text col-md-6 col-sm-6">
+                        <h3>功能完备齐全</h3>
+                        <p>可自定义设置定时推送和离线消息应用进程互相看护，保障活跃度支持双向链路和增量更新，多个APP合并链路</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="container">
+                <p>关于个推 | 联系我们 | 服务协议 | 网络检测</p>
+                <p>浙公网安备 33010602000553号 | 2013个推云推送，All Rights Reserved. 浙ICP备10020962号-5</p>
+            </div>
+        </footer>
+
+        <p id="back-to-top"><a href="#top" onfocus="this.blur();"><span class="glyphicon glyphicon-chevron-up"></span></a></p> 
+        
+        <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+        <script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+        <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                //轮播自动播放
+                $("#myCarousel").carousel({
+                    //自动3秒播放
+                    interval : 3000,
+                });
+                // //设置垂直居中
+                // $(".carousel-control").css("line-height",$(".carousel-inner img").height() + "px");
+                // $(window).resize(function(){
+                //     var $height = $(".carousel-inner img").eq(0).height() ||
+                //                   $(".carousel-inner img").eq(1).height() ||
+                //                   $(".carousel-inner img").eq(2).height();
+                //     $(".carousel-control").css("line-height",$height + "px"); 
+
+                // })
+            });
+            //设置文字垂直居中，谷歌浏览器加载图片的问题，导致高度无法获取
+            // alert(($(".auto").eq(0).height()-$(".text").eq(0).height())/2 + "px");
+            $(window).load(function () {
+                $(".text").eq(0).css("margin-top",($(".auto").eq(0).height()-$(".text").eq(0).height())/2 + "px");
+            });
+            
+            $(window).resize(function () {
+                 $(".text").eq(0).css("margin-top",($(".auto").eq(0).height()-$(".text").eq(0).height())/2 + "px");
+            });
+
+            $(window).load(function () {
+                $(".text").eq(1).css("margin-top",($(".auto").eq(1).height()-$(".text").eq(1).height())/2 + "px");
+            });
+
+            
+            $(window).resize(function () {
+                 $(".text").eq(1).css("margin-top",($(".auto").eq(1).height()-$(".text").eq(1).height())/2 + "px");
+            });
+           
+        $(function(){  
+        //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失  
+            $(function () {  
+                $(window).scroll(function(){  
+                    if ($(window).scrollTop()>100){  
+                        $("#back-to-top").fadeIn(500);  
+                    }  
+                    else  
+                    {  
+                        $("#back-to-top").fadeOut(500);  
+                    }  
+                });  
+      
+                //当点击跳转链接后，回到页面顶部位置  
+      
+                $("#back-to-top").click(function(){  
+                    $('body,html').animate({scrollTop:0},500);  
+                    return false;  
+                });  
+            });  
+        }); 
+
+        </script>
+    </body>
+</html>
+
+
+
+
+

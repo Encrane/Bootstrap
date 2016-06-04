@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+        <title>案例</title>   
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">   
+        <!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand logo"><img src="img/logo.png" alt="佳乐招聘"></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+                        <li><a href="information.html"><span class="glyphicon glyphicon-list"></span> 资讯</a></li>
+                        <li class="active"><a href="case.html"><span class="glyphicon glyphicon-th-large"></span> 案例</a></li>
+                        <li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> 关于</a></li>
+                    </ul>   
+                </div>   
+            </div>
+        </nav>
+
+        <div class="jumbotron">
+            <div class="container">
+                <hgroup>
+                    <h1>案例</h1>
+                    <p>不管你处于什么行业，个推已定制多套解决方案，助你轻松跨入“互联网+”时代</p>
+                </hgroup>
+            </div>
+        </div>
+
+<!--         <div id="information">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="container-fluid" >
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                <a href="javascript:void;"><img class="img-responsive" src="img/zx_img1.jpg" alt=""></a> 
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>个灯荣获2016金梧奖“年度最佳移动营销平台奖”</h4></a>
+                                    <p class="hidden-xs">昨日，2016全球移动营销峰会及金梧奖移动营销大赏在上海落幕，个推旗下数据营销产品个灯荣获年度最佳移动营销平台奖，个推CEO方毅出席并带来《上帝视角下的移动营销》主题演讲。  在App层出不穷、用户时…</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img2.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>个推高级技术总监首次线上公开课：Gerrit代码Review入门实战</h4></a>
+                                    <p class="hidden-xs">代码审核（Code Review）是软件研发质量保障机制中非常重要的一环，但是在实际项目执行过程中，却因为种种原因被Delay甚至是忽略。 Gerrit是Google为Android系统研发量身定制的…</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img3.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>2016个灯智慧营销开放日——广州站首发</h4></a>
+                                    <p class="hidden-xs">我们正处于一个被大数据包围的时代，每个人每天都在创造数据、产生数据，海量的数据信息通过大数据技术挖掘、分析后呈现出巨大的商业价值。当大数据向各个行业渗透辐射，对传统的运营、营销思维产生了颠覆性的影响...</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img4.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>论一个创业型网红的自我修养</h4></a>
+                                    <p class="hidden-xs">我们一直活在被网红包围的日子里 从国民老公王思聪 到2016年现象级网红“papi酱” 网红到底有多火 看看现在有多少人眼红就知道了 小编知道大家对各种直播网红 专业性网红如数家珍 所以给大家科普一个…</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img1.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>个灯荣获2016金梧奖“年度最佳移动营销平台奖”</h4></a>
+                                    <p class="hidden-xs">昨日，2016全球移动营销峰会及金梧奖移动营销大赏在上海落幕，个推旗下数据营销产品个灯荣获年度最佳移动营销平台奖，个推CEO方毅出席并带来《上帝视角下的移动营销》主题演讲。  在App层出不穷、用户时…</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img2.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>个推高级技术总监首次线上公开课：Gerrit代码Review入门实战</h4></a>
+                                    <p class="hidden-xs">代码审核（Code Review）是软件研发质量保障机制中非常重要的一环，但是在实际项目执行过程中，却因为种种原因被Delay甚至是忽略。 Gerrit是Google为Android系统研发量身定制的…</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img3.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>2016个灯智慧营销开放日——广州站首发</h4></a>
+                                    <p class="hidden-xs">我们正处于一个被大数据包围的时代，每个人每天都在创造数据、产生数据，海量的数据信息通过大数据技术挖掘、分析后呈现出巨大的商业价值。当大数据向各个行业渗透辐射，对传统的运营、营销思维产生了颠覆性的影响...</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img4.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>论一个创业型网红的自我修养</h4></a>
+                                    <p class="hidden-xs">我们一直活在被网红包围的日子里 从国民老公王思聪 到2016年现象级网红“papi酱” 网红到底有多火 看看现在有多少人眼红就知道了 小编知道大家对各种直播网红 专业性网红如数家珍 所以给大家科普一个…</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img1.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>个灯荣获2016金梧奖“年度最佳移动营销平台奖”</h4></a>
+                                    <p class="hidden-xs">昨日，2016全球移动营销峰会及金梧奖移动营销大赏在上海落幕，个推旗下数据营销产品个灯荣获年度最佳移动营销平台奖，个推CEO方毅出席并带来《上帝视角下的移动营销》主题演讲。  在App层出不穷、用户时…</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row info-content">
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img2.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>个推高级技术总监首次线上公开课：Gerrit代码Review入门实战</h4></a>
+                                    <p class="hidden-xs">代码审核（Code Review）是软件研发质量保障机制中非常重要的一环，但是在实际项目执行过程中，却因为种种原因被Delay甚至是忽略。 Gerrit是Google为Android系统研发量身定制的…</p>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 info-right hidden-xs hidden-sm">
+                        <blockquote>
+                            <h2>热门资讯</h2>
+                        </blockquote>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0;padding: 0;">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img1.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>个灯荣获2016金梧奖“年度最佳移动营销平台奖”</h4></a>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0;padding: 0;">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img4.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>2016个灯智慧营销开放日——广州站首发</h4></a>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0;padding: 0;">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img2.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>个推高级技术总监首次线上公开课：Gerrit代码Review入门实战</h4></a>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0;padding: 0;">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img3.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>个灯荣获2016金梧奖“年度最佳移动营销平台奖”</h4></a>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0;padding: 0;">
+                                   <a href="javascript:void;"><img class="img-responsive" src="img/zx_img1.jpg" alt=""></a>
+                                </div>
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+                                    <a href="javascript:void;"><h4>论一个创业型网红的自我修养</h4></a>
+                                    <p>admin 16 / 6 /3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div id="case">
+            <div class="container" style="padding: 0;">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img1.png" alt="">
+                            <div class="caption">
+                                <h4>广东网络广播电视台</h4>
+                                <p>通过接入个推，利用灵活部署的云主机云计算能力，承担分布式和前端发布等功能</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img2.png" alt="">
+                            <div class="caption">
+                                <h4>Webank微众银行</h4>
+                                <p>微众银行通过个推，构建全新去IOE高扩展性架构，快速开业成为全球首家全云上银行</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img3.png" alt="">
+                            <div class="caption">
+                                <h4>e袋洗</h4>
+                                <p>个推通过优秀的技术能力，完善的解决方案，良好的服务，以及时刻以客户为中心的经营理念</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img4.png" alt="">
+                            <div class="caption">
+                                <h4>小红书</h4>
+                                <p>个推的云服务器等IaaS资源，快速开发产品，缩短了开发周期，提升了产品品质</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img3.png" alt="">
+                            <div class="caption">
+                                <h4>e袋洗</h4>
+                                <p>个推通过优秀的技术能力，完善的解决方案，良好的服务，以及时刻以客户为中心的经营理念</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img4.png" alt="">
+                            <div class="caption">
+                                <h4>小红书</h4>
+                                <p>个推的云服务器等IaaS资源，快速开发产品，缩短了开发周期，提升了产品品质</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img1.png" alt="">
+                            <div class="caption">
+                                <h4>广东网络广播电视台</h4>
+                                <p>通过接入个推，利用灵活部署的云主机云计算能力，承担分布式和前端发布等功能</p>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img2.png" alt="">
+                            <div class="caption">
+                                <h4>Webank微众银行</h4>
+                                <p>微众银行通过个推，构建全新去IOE高扩展性架构，快速开业成为全球首家全云上银行</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img2.png" alt="">
+                            <div class="caption">
+                                <h4>Webank微众银行</h4>
+                                <p>微众银行通过个推，构建全新去IOE高扩展性架构，快速开业成为全球首家全云上银行</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img1.png" alt="">
+                            <div class="caption">
+                                <h4>广东网络广播电视台</h4>
+                                <p>通过接入个推，利用灵活部署的云主机云计算能力，承担分布式和前端发布等功能</p>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img3.png" alt="">
+                            <div class="caption">
+                                <h4>e袋洗</h4>
+                                <p>个推通过优秀的技术能力，完善的解决方案，良好的服务，以及时刻以客户为中心的经营理念</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <a href="javascript:void;">
+                        <div class="thumbnail">
+                            <img src="img/case_img4.png" alt="">
+                            <div class="caption">
+                                <h4>小红书</h4>
+                                <p>个推的云服务器等IaaS资源，快速开发产品，缩短了开发周期，提升了产品品质</p>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+            </div>
+        </div>
+
+       
+        <footer id="footer">
+            <div class="container">
+                <p>关于个推 | 联系我们 | 服务协议 | 网络检测</p>
+                <p>浙公网安备 33010602000553号 | 2013个推云推送，All Rights Reserved. 浙ICP备10020962号-5</p>
+            </div>
+        </footer>
+
+        <p id="back-to-top"><a href="#top"  onfocus="this.blur();"><span class="glyphicon glyphicon-chevron-up"></span></a></p>         
+          
+        <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+        <script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+        <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+        $(function(){  
+        //当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失  
+            $(function () {  
+                $(window).scroll(function(){  
+                    if ($(window).scrollTop()>100){  
+                        $("#back-to-top").fadeIn(500);  
+                    }  
+                    else  
+                    {  
+                        $("#back-to-top").fadeOut(500);  
+                    }  
+                });  
+      
+                //当点击跳转链接后，回到页面顶部位置  
+      
+                $("#back-to-top").click(function(){  
+                    $('body,html').animate({scrollTop:0},500);  
+                    return false;  
+                });  
+            });  
+        }); 
+            
+
+        </script>
+    </body>
+</html>
+
+
+
+
+

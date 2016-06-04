@@ -1,0 +1,329 @@
+@charset "utf-8";
+body {
+	font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+	color: #666;
+}
+a {
+	text-decoration: none!important;
+}
+.logo {
+	padding: 0;
+}
+#myCarousel {
+	margin-top: 50px;
+}
+#navbar-collapse ul {
+	margin-top: 0;
+}
+.carousel-inner img {
+	margin: 0 auto;
+}
+/*.carousel-control {
+	font-size: 100px;
+}*/
+.tab1-h2 {
+	font-size: 20px;
+	text-align: center;
+	/*letter-spacing: 1px;*/
+	color: #0059b2;
+}
+.tab1-p {
+	font-size: 15px;
+	text-align: center;
+	/*letter-spacing: 1px;*/
+	color: #999;
+	margin:20px 0 40px 0;
+}
+.tab1 {
+	margin: 30px 0;
+	color: #666;
+}
+.tab1 .media-heading {
+	margin: 10px 0 20px 0;
+}
+.tab1 .col {
+	padding: 20px;
+}
+.tab2 {
+	background-color: #f8f8f8;
+	padding: 40px 20px;
+}
+.tab3 {
+	padding: 40px 20px;
+}
+.text h3 {
+	font-size: 20px;
+}
+.text p {
+	font-size: 14px;
+}
+.jumbotron {
+	background-image: url(../img/bg.jpg);
+	margin: 50px 0 0 0;
+	padding: 30px;
+	color: #fff!important;
+}
+.jumbotron h1 {
+	font-size: 26px;
+	margin-left: 20px;
+}
+.jumbotron p {
+	font-size: 15px;
+	margin-left: 20px;
+}
+#information {
+	padding: 40px 0;
+}
+.info-content {
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 3px #e5e5e5;
+	-webkit-transition: all .2s linear;
+	transition:all .2s linear;
+}
+.info-content:hover:hover {
+	-webkit-box-shadow: 0 3px 20px rgba(0,0,0,.1);
+	box-shadow: 0 3px 20px rgba(0,0,0,.1);
+	-webkit-transform: translate3d(0, -2px, 0);
+	transform: translate3d(0, -2px, 0)
+}
+.info-content img {
+	margin: 12px 0;
+}
+.info-content h4 {
+	color: #333;
+	padding-top: 2px;
+	font-size: 14px;
+}
+.info-content p {
+	line-height: 1.6;
+}
+.info-rihgt blockquote{
+	margin: 0;
+	padding: 0;
+}
+.info-right h2{
+	font-size: 20px;
+	color: #333;
+	padding: 5px;
+}
+.info-right h4{
+	font-size: 16px;
+	color: #333;
+	padding-top: 2px;
+	line-height: 1.4; 
+}
+#case {
+	padding: 40px 0;
+	text-align: center;
+
+}
+#case h4 {
+	color: #666;
+}
+#case h4 {
+	color: #666;
+	line-height: 1.6;
+}
+.thumbnail{
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 0;
+	box-shadow: 0px 0px 3px #e5e5e5;
+	-webkit-transition: all .2s linear;
+	transition:all .2s linear;
+}
+.thumbnail:hover:hover {
+	-webkit-box-shadow: 0 3px 20px rgba(0,0,0,.1);
+	box-shadow: 0 3px 20px rgba(0,0,0,.1);
+	-webkit-transform: translate3d(0, -2px, 0);
+	transform: translate3d(0, -2px, 0)
+}
+#about {
+	padding: 40px 15px;
+}
+#about .about {
+	box-shadow: 0px 0px 3px #e5e5e5;
+}
+#about h3 {
+	color: #333;
+	font-size: 18px;
+	border-bottom: solid 1px #eee;
+	padding: 20px 0;
+	margin: 0 0 10px 0;
+}
+#about p {
+	line-height: 1.8;
+	font-size: 13px;
+	text-indent: 2em;
+}
+.nav-pills{
+    width: 150px;
+}
+.nav-pills.affix{
+    top:80px;
+}
+.about h3.a-post:target{
+    top:44px;
+}
+#footer {
+	background-color: #eee;
+	border-top: solid 1px #e5e5e5;
+	padding: 20px;
+	text-align: center;
+}
+/*returnTop*/  
+p#back-to-top{  
+    position:fixed;  
+    display:none;  
+    bottom:50px;  
+    right:5px;  
+}  
+p#back-to-top a{  
+    text-align:center;  
+    text-decoration:none;  
+    color:#fff;  
+    display:block;
+    padding: 5px 8px 0 8px;  
+    font-size: 18px;
+    background-color: rgba(49,133,219,.5);
+    border-radius: 5px;
+
+
+    /*使用CSS3中的transition属性给跳转链接中的文字添加渐变效果*/  
+    -moz-transition:color 1s;  
+    -webkit-transition:color 1s;  
+    -o-transition:color 1s;  
+}  
+p#back-to-top a:hover{  
+    color:#ddd;  
+}
+.enlarge {
+	-webkit-transition: all .2s linear;
+	transition:all .2s linear;
+}
+.enlarge:hover:hover {
+	-webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    transform:scale(1.1,1.1);
+} 
+/* 小屏幕（平板，大于等于768px）*/
+@media (min-width: 768px) {
+	.tab1-h2 {
+	font-size: 26px;
+	}
+	.tab1-p {
+	font-size: 16px;
+	}
+	.text h3 {
+		font-size: 22px;
+	}
+	.text p {
+		font-size: 15px;
+	}
+	.tab2-text {
+		float: left;
+	}
+	.tab2-img {
+		float: right;
+	}
+	.jumbotron h1 {
+		font-size: 30px;
+	}
+	.jumbotron p {
+		font-size: 16px;
+	}
+	.info-content {
+		margin-bottom: 20px;
+	}	
+	.info-content h4 {
+		font-size: 14px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	#about h3 {
+		font-size: 18px;
+	}
+	#about p {
+		font-size: 14px;
+	}
+	p#back-to-top{   
+	    bottom:100px;  
+	    right:30px;  
+	}
+	p#back-to-top a{  
+	    font-size: 22px;
+	    background-color: #3185db;
+	} 
+
+}
+
+/* 中屏幕（桌面显示器，大于等于992px）*/
+@media (min-width: 992px) {
+	.tab1-h2 {
+	font-size: 28px;
+	}
+	.tab1-p {
+	font-size: 17px;
+	}
+	.text h3 {
+		font-size: 24px;
+	}
+	.text p {
+		font-size: 16px;
+	}
+	.jumbotron h1 {
+		font-size: 33px;
+	}
+	.jumbotron p {
+		font-size: 17px;
+	}	
+	.info-content h4 {
+		font-size: 16px;
+	}
+	#about h3 {
+		font-size: 20px;
+	}
+	#about p {
+		font-size: 15px;
+	}		
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px）*/
+@media (min-width: 1200px) {
+	.tab1-h2 {
+	font-size: 30px;
+	}
+	.tab1-p {
+	font-size: 18px;
+	}
+	.text h3 {
+	font-size: 26px;
+	}
+	.text p {
+		font-size: 18px;
+	}
+	.jumbotron h1 {
+		font-size: 36px;
+	}
+	.jumbotron p {
+		font-size: 18px;
+	}
+	.info-content h4 {
+		font-size: 18px;
+	}
+	#about h3 {
+		font-size: 22px;
+	}
+	#about p {
+		font-size: 16px;
+	}				
+}
+
+ 
+
+
+
+
+
+
